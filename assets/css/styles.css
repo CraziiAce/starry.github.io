@@ -9,7 +9,8 @@
 .container, .container-lg, .container-md, .container-sm, .container-xl {
   text-align: center;
   margin: 0px 0px 0px 0px;
-  width: 100%';
+  width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -80,4 +81,3 @@ body {
 .col-9.text-center.mx-auto.testimonial-content {
   /*margin-top: 10%;*/
 }
-
