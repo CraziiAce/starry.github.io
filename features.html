@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Starry</title>
-    <meta name="description" content="Starry is a versatile Discord bot with moderation, music, welcome messages, and more!">
+    <title>Elevate</title>
+    <meta name="description" content="Elevate is a versatile Discord bot with moderation, music, welcome messages, and more!">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i">
@@ -13,149 +13,77 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Ultimate-Testimonial-Slider.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md sticky-top" id="topbar">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="width: 50px;height: 50px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="https://discordapp.com/oauth2/authorize?client_id=716798638277525535&scope=bot&permissions=8">Invite</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="features.html">Features</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Dashboard</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="why-us.html">Why Starry?</a></li>
-                </ul>
+    <!--    Made by Erik Terwan, modified by Teddy Rasmussen    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+    <nav role="navigation">
+        <div id="menuToggle">
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+        
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+            <a href="https://elevatebot.xyz"><li>Home</li></a>
+            <a href="https://discord.com/oauth2/authorize?client_id=751447995270168586&permissions=268823638&scope=bot"><li>Invite</li></a>
+            <a href="https://elevatebot.xyz/privacy.html/"><li>Privacy Policy</li></a>
+        </ul>
         </div>
-        </div>
-    </nav>
-    <header></header>
-    <div class="features-clean" style="background-color: rgb(44,47,51);text-align: center;">
+  </nav>    
+  <div class="features-clean" style="text-align: center;">
         <div class="container" style="text-align: center;">
             <div class="intro">
                 <h2 class="text-center">Features</h2>
-                <p class="text-center">Starry comes loaded with features to help your server. It can keep users active in chat with fun commands, and moderation commands can keep your server safe</p>
+                <p class="text-center">Elevate comes loaded with features to help your server. It can keep users active in chat with fun commands, and moderation commands can keep your server safe</p>
             </div>
             <div class="row features">
                 <div class="col-sm-6 col-lg-4 item"><i class="fas fa-shield-alt icon"></i>
                     <h3 class="name" style="color: rgb(255,255,255);">Moderation</h3>
-                    <p class="description">With tons of moderation commands, you don't have to worry about your server getting raided or repeatedly spammed. Starry has your standard commands like kick & ban, and also has warn, mute, and hackban commands. Additionally, you can create automated actions when users are warned, and can also tempban and softban.</p>
+                    <p class="description">With tons of moderation commands, you don't have to worry about your server getting raided or repeatedly spammed. Elevate has your standard commands like kick & ban, and also has warn, mute, and hackban commands. Additionally, you can create automated actions when users are warned, and can also tempban and softban.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-clock-o icon"></i>
                     <h3 class="name">Utility commands</h3>
-                    <p class="description">Starry also has tons of commands to help your server like Reaction Roles, Tickets, and more! Instead of having one bot for reaction roles, one for tickets, one for music, and one fore moderation, you can use Starry to make your server more professional and consolidate commands.</p>
+                    <p class="description">Elevate also has tons of commands to help your server like Reaction Roles, Tickets, and more! Instead of having one bot for reaction roles, one for tickets, one for music, and one fore moderation, you can use Elevate to make your server more professional and consolidate commands.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-list-alt icon"></i>
                     <h3 class="name">Customizable</h3>
-                    <p class="description">Starry has customizable behavior. You can change which roles can run which commands, change where the bot sends logs, and much more. Plus, you can add and configure prefixes if other bots already use Starry's prefix, <code style="color: white;">s!</code>.</p>
+                    <p class="description">Elevate has customizable behavior. You can change where the bot sends logs, and much more. Plus, you can add and configure prefixes if other bots already use Elevate's prefix, <code style="color: white;">e!</code>.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="icon ion-android-hand icon"></i>
                     <h3 class="name">Welcome Messages</h3>
-                    <p class="description">Tired of users joining your server, and not knowing what to do or being intimidated by a large number of channels? Starry can send a custom welcome message so users never feel lost. Studies have shown that users who are send a welcome message are 1.5x likely to stay in a server than if the didn't receive any message.</p>
+                    <p class="description">Tired of users joining your server, and not knowing what to do or being intimidated by a large number of channels? Elevate can send a custom welcome message so users never feel lost. Studies have shown that users who are send a welcome message are 1.5x likely to stay in a server than if the didn't receive any message.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-music icon"></i>
                     <h3 class="name">Music</h3>
-                    <p class="description">Starry also comes with a fully working audio system with playlists, autoplay, and more!. You can play music from Youtube, Mixer, Soundcloud, Twitch, Bandcamp, and Vimeo, and even more platforms are being added. Not only does music lighten people's mood, it can improve performance while gaming or doing schoolwork.</p>
+                    <p class="description">Elevate also comes with a fully working audio system with playlists, autoplay, and more!. You can play music from Youtube, Mixer, Soundcloud, Twitch, Bandcamp, and Vimeo, and even more platforms are being added. Not only does music lighten people's mood, it can improve performance while gaming or doing schoolwork.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 item"><i class="fa fa-phone icon"></i>
                     <h3 class="name">Logging</h3>
-                    <p class="description">Not only can Starry log moderation commands, but it can also log almost everything that happens in a server. Are your mods changing permissions and then saying they didn't do it? With our advanced logging, every action that happens to the server's roles, channels, categories, and settings can be logged.</p>
+                    <p class="description">Elevate logs every moderation command, so you always know what your mods are doing</p>
                 </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="topbar">
-        <div class="container-fluid"><a class="navbar-brand text-center" href="index.html" style="width: 50px;height: 50px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="https://discordapp.com/oauth2/authorize?client_id=716798638277525535&ascope=bot&permissions=8">Invite</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="features.html">Features</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Dashboard</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="why-us.html">Why Starry?</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="topbar">
-        <div class="container-fluid"><a class="navbar-brand text-center" href="index.html" style="width: 50px;height: 50px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="https://discordapp.com/oauth2/authorize?client_id=716798638277525535&amp;scope=bot&amp;permissions=8">Invite</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="features.html">Features</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Dashboard</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="why-us.html">Why Starry?</a></li>
-                </ul>
-        </div>
-        </div>
-    </nav>
-    <footer class="page-footer font-small blue pt-4">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left" style="background-color: #1C86EE;">
-    
-            <!-- Grid row -->
-            <div class="row">
-    
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-    
-                <!-- Content -->
-                <h5 class="text-uppercase">Starry</h5>
-                <p>The best bot for Discord, with moderation, fun, music, and more!</p>
-    
-            </div>
-            <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none pb-3">
-    
-    
-    
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3" >
-    
-                <!-- Links -->
-                <h5 class="text-uppercase">Links</h5>
-    
-                <ul class="list-unstyled">
-                <li>
-                    <a href="https://discord.com/oauth2/authorize?client_id=716798638277525535&scope=bot&permissions=8" style="color: white;">Invite</a>
-                </li>
-                <li>
-                    <a href="features.html "style="color: white;">Features</a>
-                </li>
-                <li>
-                    <a href="why-us.html" style="color: white;">Why Starry?</a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/zwyFZ7h" style="color: white;">Support</a>
-                </li>
-                <li>
-                <a href="privacy.html" style="color: white;">Privacy Policy</a>
-                </li>
-                </ul>
-    
-            </div>
-            <!-- Grid column -->
-    
-            </div>
-            <!-- Grid row -->
-    
-        </div>
-        <!-- Footer Links -->
-    
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3" style="background-color: #696969;">© 2020
-            <a">CraziiAce#0001</a><br>All Rights Reserved
-        </div>
-        <!-- Copyright -->
-    
-        </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
